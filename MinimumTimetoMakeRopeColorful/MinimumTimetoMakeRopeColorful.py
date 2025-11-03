@@ -14,7 +14,7 @@ class Solution:
             else:
                 stack.append([colors[i],neededTime[i]])
         return max_value
-
+# optimised Approach with constant space complexity with single run by using two pointers approach 
 class Solution:
     def minCost(self, colors: str, neededTime: list[int]) -> int:
         max_value,sum_total=0,neededTime[0]
